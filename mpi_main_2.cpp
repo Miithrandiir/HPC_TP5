@@ -5,7 +5,7 @@
 
 #define NB_POINTS 10000
 #define REAL_PI 3.141592653589793238462643
-#define PRECISION 6
+#define PRECISION 7
 #define STOP_NUMBER -42
 
 void generateNumber();
@@ -108,7 +108,7 @@ void generateNumber() {
             }
 
         }
-
+        //NbLoop/2 car on utilise 2 nombre aléatoire par boucle
         int data[2]{nbLoop/2, nbDansCercle};
 
         int recvData[2];
