@@ -109,7 +109,7 @@ void generateNumber() {
 
         }
 
-        int data[2]{nbLoop, nbDansCercle};
+        int data[2]{nbLoop/2, nbDansCercle};
 
         int recvData[2];
         std::cout << "[CHILD] Reducing" << std::endl;
